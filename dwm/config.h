@@ -109,6 +109,7 @@ static Key keys[] = {
 	{ MODKEY,                 XK_period,       focusmon,       {.i = +1 } },
 	{ MODKEY|ShiftMask,       XK_comma,        tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,       XK_period,       tagmon,         {.i = +1 } },
+	{ ControlMask|ShiftMask,  XK_Escape,       spawn,          CMD("st -e htop") },
 	
     /* Apps Launched with <SUPER> + <KEYPAD 1-9>  */
 	{ MODKEY,                 XK_KP_End,       spawn,          CMD("") },

@@ -33,7 +33,7 @@ battery() {
 }
 
 brand() {
-    BRAND=$'\uf3a4'
+    BRAND=$'\uf30c'
     echo $BRAND
 }
 

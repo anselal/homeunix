@@ -1,3 +1,4 @@
+#include "nerdfonts.h"
 #include "selfrestart.c"
 
 /* See LICENSE file for copyright and license details. */
@@ -30,9 +31,7 @@ static const unsigned int alphas[][3]      = {
 };
 
 /* tagging */
-/* static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" }; */
-// static const char *tags[] = { "", "", "", "", "", "", "", "", "" };
-static const char *tags[] = { " ", "", "", "", "", "☘", "", "", "" };
+static const char *tags[] = { N_TERMINAL, N_FIREFOX, N_CODE, N_FOLDER, N_DESKTOP, N_GIT, N_C, N_PYTHON, N_SKYPE  };
 
 static const Rule rules[] = {
 	/* xprop(1):

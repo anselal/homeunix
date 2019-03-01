@@ -1,0 +1,17 @@
+xorg-minimal,X graphical server
+xrandr,display resolution tool
+xsetroot,root window parameter setting utility for X
+git,source version control
+vim,vi improved
+tmux,terminal multiplexer
+htop,terminal process manager
+mc,terminal file manager
+dunst,notifications daemon
+notify-osd,display notifications
+feh,image viewer and background tool
+dmenu,suckless tool for creating dynamic menus
+gentoo,a highly configurable file manager for X
+zathura,customizable lightweight pdf reader
+zathura-djvu,djvu support for zathura
+zathura-pdf-mupdf,mupdf render pdf plugin for zathura
+zatthura-ps,postscript support for zathura

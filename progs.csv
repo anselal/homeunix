@@ -11,6 +11,7 @@ notify-osd,display notifications
 feh,image viewer and background tool
 dmenu,suckless tool for creating dynamic menus
 gentoo,a highly configurable file manager for X
+remmina,remote desktop client
 zathura,customizable lightweight pdf reader
 zathura-djvu,djvu support for zathura
 zathura-pdf-mupdf,mupdf render pdf plugin for zathura

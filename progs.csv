@@ -16,3 +16,11 @@ zathura,customizable lightweight pdf reader
 zathura-djvu,djvu support for zathura
 zathura-pdf-mupdf,mupdf render pdf plugin for zathura
 zathura-ps,postscript support for zathura
+bash,bourne-again shell
+groff,front-end for the groff document formatting system
+pkgconf,a system for configuring build dependency information
+sudo,execute a command as another user
+ncurses,crt screen handling and optimization package
+compton,a compositor for X11
+firefox,web browser
+drm-kmod,intel integrated graphics driver

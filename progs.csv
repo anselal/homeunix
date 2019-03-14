@@ -24,3 +24,4 @@ ncurses,crt screen handling and optimization package
 compton,a compositor for X11
 firefox,web browser
 drm-kmod,intel integrated graphics driver
+ca_root_nss,root certificate bundle from the mozilla project

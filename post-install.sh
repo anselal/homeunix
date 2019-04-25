@@ -1,6 +1,12 @@
 #!/bin/bash
 
-awk -F, '{ print "[INFO] Installing "$2 system("sudo pkg install -y "$1)}' progs.csv
+# Make sure only root can run our script
+if [ "$(id -u)" != "0" ]; then
+   echo "This script must be run as root" 1>&2
+   exit 1
+fi
+
+awk -F, '{ print "[INFO] Installing "$2 system("pkg install -y "$1)}' progs.csv
 
 echo "[INFO] Enabling i915kms..."
 sleep 1

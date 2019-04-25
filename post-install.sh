@@ -16,3 +16,12 @@ cat <<EOF >> /etc/profile
 LANG=en_US.UTF-8;   export LANG
 CHARSET=UTF-8;  export CHARSET
 EOF
+
+echo "[INFO disabling beep for current session]"
+sysctl hw.syscons.bell=0
+
+echo "[INFO disabling beep globally]"
+cat <<EOF >> /etc/sysctl.conf
+
+hw.syscons.bell=0
+EOF
